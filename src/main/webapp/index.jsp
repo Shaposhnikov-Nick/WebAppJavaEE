@@ -12,9 +12,11 @@
 <br/>
 <a href="hello-first-servlet">Hello from my first servlet</a>
 <br/>
-<a href="hello-second-servlet">Hello from my second servlet (redirect to Google)</a>
+<a href="hello-second-servlet">Hello from my second servlet (redirect to Google, if get-parameter id = null)</a>
 <br/>
 <a href="hello-third-servlet">Hello from my third servlet (forward to MyJSP)</a>
+<br/>
+<a href="postindex.html">Hello from my fourth servlet (html with post)</a>
 <br/>
 <a href="hello-my-jsp">Hello from my MyJSP</a>
 </body>

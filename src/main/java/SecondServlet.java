@@ -13,14 +13,21 @@ public class SecondServlet extends HttpServlet {
         // устанавливаем тип возвращаемых данных
         response.setContentType("text/html");
 
-        // записываем то, что будет в ответе на запрос
-        PrintWriter out = response.getWriter();
+        String id = request.getParameter("id");
 
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
+        if (id == null){
+            response.sendRedirect("https://www.google.com");
+        } else {
 
-        response.sendRedirect("https://www.google.com");
+            // записываем то, что будет в ответе на запрос
+            PrintWriter out = response.getWriter();
+
+            out.println("<html><body>");
+            out.println("<h1>" + message + "</h1>");
+            out.println("<h1>" + "id " + id + "</h1>");
+            out.println("</body></html>");
+        }
+
     }
 
     @Override
