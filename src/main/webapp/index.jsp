@@ -18,6 +18,10 @@
 <br/>
 <a href="postindex.html">Hello from my fourth servlet (html with post)</a>
 <br/>
+<a href="session-servlet">Hello from session servlet</a>
+<br/>
+<a href="shop-servlet">Hello from shop servlet</a>
+<br/>
 <a href="hello-my-jsp">Hello from my MyJSP</a>
 </body>
 </html>

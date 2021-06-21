@@ -28,6 +28,16 @@
         <url-pattern>/hello-fourth-servlet</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/session-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ShopServlet</servlet-name>
+        <url-pattern>/shop-servlet</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>MyJSP</servlet-name>

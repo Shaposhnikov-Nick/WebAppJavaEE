@@ -7,7 +7,7 @@
         <error-code>404</error-code>
         <location>/404.html</location>
     </error-page>
-    
+
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/hello-first-servlet</url-pattern>
@@ -26,6 +26,16 @@
     <servlet-mapping>
         <servlet-name>FourthServlet</servlet-name>
         <url-pattern>/hello-fourth-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/session-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ShopServlet</servlet-name>
+        <url-pattern>/shop-servlet</url-pattern>
     </servlet-mapping>
 
 
