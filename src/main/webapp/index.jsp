@@ -20,8 +20,15 @@
 <br/>
 <a href="session-servlet">Hello from session servlet</a>
 <br/>
-<a href="shop-servlet">Hello from shop servlet</a>
+<a href="shop-servlet?name=plane&quantity=85">Hello from shop servlet</a>
 <br/>
 <a href="hello-my-jsp">Hello from my MyJSP</a>
+<br/>
+<a href="set-cookies">Установить cookies</a>
+<br/>
+<a href="get-cookies">Показать cookies</a>
+<br/>
+<a href="delete-cookies">Удалить cookies</a>
+<br/>
 </body>
 </html>
