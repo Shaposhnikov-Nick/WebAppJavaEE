@@ -65,6 +65,11 @@
         <url-pattern>/delete-cookies</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>LibraryServlet</servlet-name>
+        <url-pattern>/library-servlet</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>MyJSP</servlet-name>
         <jsp-file>/MyJSP.jsp</jsp-file>

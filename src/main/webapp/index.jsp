@@ -30,5 +30,7 @@
 <br/>
 <a href="delete-cookies">Удалить cookies</a>
 <br/>
+<a href="library-servlet">подключение к БД</a>
+<br/>
 </body>
 </html>
